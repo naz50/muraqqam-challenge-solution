@@ -73,12 +73,6 @@ Every submission is validated row-by-row against a byte-identical copy of the or
 - A zero-shot multilingual punctuation model (pcs_47lang): 0.18 standalone on Arabic — discarded after measuring on train
 - A second pseudo-label generation from the same reservoir: ≈ nothing
 
-## Lessons for next time (mostly learned from the 1st place writeup)
-
-1. Search HuggingFace for **task-similar checkpoints first** (the Naqta move) — initializations beat ensembling
-2. Perfect the single-model recipe (R-Drop, boundary-pair head) **before** widening the ensemble
-3. Gate every ensemble addition with leave-one-fold-out — don't just accumulate
-4. And back up your artifacts. Twice.
 
 ## Repository structure
 
