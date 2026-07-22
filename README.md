@@ -111,6 +111,4 @@ The competition data (`train.csv`, `test.csv`) is **not included** — it is dis
 
 All scripts auto-detect Kaggle / Colab / local environments and need no configuration.
 
-## Acknowledgments
 
-Thanks to Dal and KSGAAL for a genuinely fun challenge, and congrats to @sudonear on a masterclass of a solution.
